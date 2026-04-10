@@ -46,19 +46,19 @@ export const PIE_CHART_APACHE_SPARK = assembleRevStyle({
   ]
 })
 
-export const PIE_CHART_APACHE_KAFKA = assembleRevStyle({
-  title: "Apache Kafka",
-  colorOffset: 60,
-  colorSpread: 220,
-  slices: [
-    { label: "Topics", months: 2 },
-    { label: "Brokers", months: 2 },
-    { label: "Producers", months: 2 },
-    { label: "Consumers & Groups", months: 2 },
-    { label: "Partitions", months: 2 },
-    { label: "Replication", months: 2 }
-  ]
-})
+// export const PIE_CHART_APACHE_KAFKA = assembleRevStyle({
+//   title: "Apache Kafka",
+//   colorOffset: 60,
+//   colorSpread: 220,
+//   slices: [
+//     { label: "Topics", months: 2 },
+//     { label: "Brokers", months: 2 },
+//     { label: "Producers", months: 2 },
+//     { label: "Consumers & Groups", months: 2 },
+//     { label: "Partitions", months: 2 },
+//     { label: "Replication", months: 2 }
+//   ]
+// })
 
 export const PIE_CHART_CLOUD_DEV = assembleRevStyle({
   title: "DevOps / Tools",
