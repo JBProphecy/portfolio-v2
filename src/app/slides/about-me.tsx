@@ -2,7 +2,7 @@
 import { Slide } from "@/printshop/Slide"
 
 const ABOUT_ME_P1 = `
-Acquired a bachelor's degree in computer science from the University of North Carolina at Wilmington. Experience working with various date engineering tools including as Python, Pandas, Spark, Snowflake, DBT, Kafka, Airflow, Docker, and more. Worked on multiple projects where my team and I built ETL pipelines and ELT pipelines, performed both batch and stream processing, and harnessed the power of cloud resources to process large-scale data.
+Acquired a bachelor's degree in computer science from the University of North Carolina at Wilmington. Experience working with various data engineering tools including as Python, Pandas, Spark, Snowflake, DBT, Kafka, Airflow, Docker, and more. Worked on multiple projects where my team and I built ETL pipelines and ELT pipelines, performed both batch and stream processing, and harnessed the power of cloud resources to process large-scale data.
 `
 
 const ABOUT_ME_P2 = `
