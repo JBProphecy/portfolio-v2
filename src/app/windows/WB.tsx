@@ -1,6 +1,6 @@
 
 import { PieCard } from "../../workspace/PieCard"
-import { PIE_CHART_PYTHON, PIE_CHART_SQL, PIE_CHART_APACHE_SPARK, PIE_CHART_CLOUD_DEV, PIE_CHART_APACHE_KAFKA, PIE_CHART_SNOWFLAKE, PIE_CHART_MORE_APACHE } from "@/constants/pie-charts"
+import { PIE_CHART_PYTHON, PIE_CHART_SQL, PIE_CHART_APACHE_SPARK, PIE_CHART_CLOUD_DEV, PIE_CHART_SNOWFLAKE, PIE_CHART_MORE_APACHE } from "@/constants/pie-charts"
 
 export function WB() {
   return (
