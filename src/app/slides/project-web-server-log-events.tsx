@@ -141,7 +141,7 @@ export function SlideProjectWebServerLogEventsResponsibilities() {
       <ul style={{ listStylePosition: "outside", paddingLeft: "4.25rem", paddingRight: "3rem", gap: "0.25rem", display: "flex", flexDirection: "column" }}>
         {RESPONSIBILITIES.map((r, i) => (
           <li key={i} style={{ width: "100%", color: "#ccc", fontWeight: 700 }}>
-            <TextInner text={r} color="#ccc" fontSize={1.125} lineHeight={1.5} fontWeight={400} />
+            <TextInner text={r} color="#ccc" fontSize={1.125} lineHeight={1.5} />
           </li>
         ))}
       </ul>
