@@ -1,0 +1,22 @@
+@media print {
+  @page {
+    size: 16in 9in;
+    margin: 0;
+  }
+
+  .deck > * {
+    width: 100vw !important;
+    height: 100vh !important;
+
+    margin: 0 !important;
+    border-radius: 0 !important;
+
+    break-after: page;
+    page-break-after: always;
+  }
+
+  .deck > *:last-child {
+    break-after: auto;
+    page-break-after: auto;
+  }
+}

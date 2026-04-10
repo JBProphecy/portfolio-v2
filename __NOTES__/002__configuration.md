@@ -31,3 +31,24 @@ Each file already has a json object, so just copy and paste what's inside the fo
 ```
 
 ---
+
+In `vite.config.ts`, you need to add the following code.
+
+```
+import path from "path"
+```
+
+The file already has the `defineConfig` declaration and some of the content, you just need to copy and paste the alias stuff.
+
+```
+export default defineConfig({
+  plugins: [react()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src")
+    }
+  }
+})
+```
+
+---
