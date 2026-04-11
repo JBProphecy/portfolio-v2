@@ -20,8 +20,8 @@ const RESPONSIBILITIES = [
   "Created a consumer to read data from Kafka topics in parallel with PySpark.",
   "Configured S3 bucket to serve as our data lake.",
   "Configured Snowflake to connect to AWS and load data from S3",
-  "Built staging tables, fact tables, dimension tables, and tailored marts to complete the medallion architecture.",
-  "Used Streamlit to create a quick, developer-friendly dashboard to monitor the quality of our transformations.",
+  "Modeled staging, fact, dimension, and tailored mart tables to complete the medallion architecture.",
+  "Used Streamlit to create a developer-friendly dashboard to monitor the quality of our transformations.",
   "Used Power BI to create in-depth visuals to provide insights and support busines descisions"
 ]
 
