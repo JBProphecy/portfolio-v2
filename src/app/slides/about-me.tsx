@@ -1,13 +1,9 @@
 
 import { Slide } from "@/printshop/Slide"
 
-const ABOUT_ME_P1 = `
-Acquired a bachelor's degree in computer science from the University of North Carolina at Wilmington. Experience working with various data engineering tools including as Python, Pandas, Spark, Snowflake, DBT, Kafka, Airflow, Docker, and more. Worked on multiple projects where my team and I built ETL pipelines and ELT pipelines, performed both batch and stream processing, and harnessed the power of cloud resources to process large-scale data.
-`
+const ABOUT_ME_P1 = "Acquired a bachelor's degree in computer science from the University of North Carolina at Wilmington. Experience working with various data engineering tools including as Python, Pandas, Spark, Snowflake, DBT, Kafka, Airflow, Docker, and more. Worked on multiple projects where my team and I built ETL pipelines and ELT pipelines, performed both batch and stream processing, and harnessed the power of cloud resources to process large-scale data."
 
-const ABOUT_ME_P2 = `
-I really enjoy programming and digital architecture. From web development to mobile development and now data engineering, I want the systems I build to be simple, functional, efficient, and reliable, no matter how involved or complex they are in nature. In light of my interests, I believe data engineering is the field where I can truly apply myself and see those things to fruition. I'm both competitive and cooperative. I'll compete with myself to improve my skills and we can work together to get the job done.
-`
+const ABOUT_ME_P2 = "I really enjoy programming and digital architecture. From web development to mobile development and now data engineering, I want the systems I build to be simple, functional, efficient, and reliable, no matter how involved or complex they are in nature. In light of my interests, I believe data engineering is the field where I can truly apply myself and see those things to fruition. I'm both competitive and cooperative. I'll compete with myself to improve my skills and we can work together to get the job done."
 
 export function Title({ children }: { children?: React.ReactNode }) {
   return (
